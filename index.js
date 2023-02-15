@@ -1,5 +1,6 @@
 // Variables containing required packages
 const inquirer = require("inquirer");
+const fs = require("fs");
 const util = require("util");
 // Variables to connect modules to application
 const generateMarkdown = require("./utils/generateMarkdown");
