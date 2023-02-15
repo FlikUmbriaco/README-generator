@@ -1,10 +1,8 @@
 // Variables containing required packages
 const inquirer = require("inquirer");
-const fs = require("fs");
 const util = require("util");
 // Variables to connect modules to application
 const generateMarkdown = require("./utils/generateMarkdown");
-const licenseBadge = require("./utils/licenseBadge").licenseBadge;
 const questions = require("./utils/questions").questions;
 //Allows for use of async await
 const writeFileAsync = util.promisify(fs.writeFile);
